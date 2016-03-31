@@ -16,6 +16,9 @@
 
 -(void)testTR
 {
+    
+    NSAssert(YES, @"先去Tester里把JSON文件的路径给改了。");
+
     NSString * path = @"/Users/bliss_ddo/Desktop/StackAndJson1/StackAndJson1/test.json";
     
     NSString * stringToBeScaned = [[NSString alloc]initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
