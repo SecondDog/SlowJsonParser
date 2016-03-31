@@ -1,0 +1,12 @@
+{
+    "type": "中午",
+    "coordinates": [
+    
+    ]
+    "subdict":{
+        "subkey":"subvalue",
+        "subK😀😂":"👿👿😉"
+    },
+    "numberkey":1234567890,
+    "NullKey!":null
+}
