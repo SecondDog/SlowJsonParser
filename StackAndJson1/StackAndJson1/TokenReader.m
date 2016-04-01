@@ -35,8 +35,7 @@ static inline bool isWhiteSpace(unichar ch)
     if (self) {
         _jsonString=jstr;
         _scanIndex=0;
-        _jsonStringCFArray=malloc(sizeof(char)*4096*2);
-        memccpy(_jsonStringCFArray, [_jsonString UTF8String], 0, sizeof(char)*4096*2) ;
+        _jsonStringCFArray=[_jsonString UTF8String];
     
     }
     return self;

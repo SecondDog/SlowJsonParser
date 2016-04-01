@@ -8,5 +8,12 @@
         "subK😀😂":"👿👿😉"
     },
     "numberkey":1234567890,
-    "NullKey!":null
+    "NullKey!":null,
+    "BOOLkEY":true,
+    "subdictWithArr":{
+        "subkey":"subvalue",
+        "subK😀😂":"👿👿😉",
+        "subArray" : ["a","b","c","d"]
+    }
+    
 }
